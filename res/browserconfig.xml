@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&#13;</para>
+  <para>                        &lt;link rel="apple-touch-icon" sizes="180x180" href="/res/images/icons/apple-touch-icon.png"&gt;&#13;</para>
+  <para>                        &lt;link rel="icon" type="image/png" href="/res/images/icons/favicon-32x32.png" sizes="32x32"&gt;&#13;</para>
+  <para>                        &lt;link rel="icon" type="image/png" href="/res/images/icons/favicon-16x16.png" sizes="16x16"&gt;&#13;</para>
+  <para>                        &lt;link rel="manifest" href="/res/manifest.json"&gt;&#13;</para>
+  <para>                        &lt;link rel="mask-icon" href="/res/images/icons/safari-pinned-tab.svg" color="#000000"&gt;&#13;</para>
+  <para>                        &lt;link rel="shortcut icon" href="/res/images/icons/favicon.ico"&gt;&#13;</para>
+  <para>                        &lt;meta name="msapplication-config" content="/res/browserconfig.xml"&gt;&#13;</para>
+  <para>                        &lt;meta name="theme-color" content="#000000"&gt;&#13;</para>
+  <para>                        &lt;meta charset="UTF-8"&gt;&#13;</para>
+  <para>                        &lt;link rel="stylesheet" type="text/css" href="/res/css/index.css"&gt;        &#13;</para>
+  <para>                &lt;script src="/res/scripts/jquery.min.js"&gt;&lt;/script&gt;&lt;script src="/res/scripts/howler.min.js"&gt;&lt;/script&gt;&lt;title&gt;TSUKI/???&lt;/title&gt;        &lt;script&gt;&#13;</para>
+  <para>                document.addEventListener("DOMContentLoaded", function(event) { &#13;</para>
+  <para>                        var ogg = new Howl({&#13;</para>
+  <para>                                src: ['/res/audio/bgm/404.ogg'],&#13;</para>
+  <para>                                loop: true,&#13;</para>
+  <para>                                volume: 1&#13;</para>
+  <para>                        });&#13;</para>
+  <para>                        ogg.play();&#13;</para>
+  <para>&#13;</para>
+  <para>                        $("#back").click(function(){&#13;</para>
+  <para>                                window.history.back();&#13;</para>
+  <para>                        });&#13;</para>
+  <para>&#13;</para>
+  <para>                });&#13;</para>
+  <para>        &lt;/script&gt;&#13;</para>
+  <para>        &lt;style&gt;&#13;</para>
+  <para>                body {&#13;</para>
+  <para>                        min-height: 100vh;&#13;</para>
+  <para>                        width: 100%;&#13;</para>
+  <para>                        background-image: url(/res/images/error/bg/snow.png);&#13;</para>
+  <para>                        background-size: cover;&#13;</para>
+  <para>                        background-position: center;&#13;</para>
+  <para>                        position: absolute;&#13;</para>
+  <para>                        left: 0;&#13;</para>
+  <para>                        top: 0;&#13;</para>
+  <para>                }&#13;</para>
+  <para>&#13;</para>
+  <para>                #back {&#13;</para>
+  <para>                        background-color: rgba(0,0,0,0.5);&#13;</para>
+  <para>                        border: 1px solid #FFF;&#13;</para>
+  <para>                        box-shadow: 0px 6px #FFF, 0px 0px 16px #FFF;&#13;</para>
+  <para>                        width: 10em;&#13;</para>
+  <para>                        font-family: Heading;&#13;</para>
+  <para>                        font-size: 2em;&#13;</para>
+  <para>                        cursor: pointer;&#13;</para>
+  <para>                        position: relative;&#13;</para>
+  <para>                        top: 0px;&#13;</para>
+  <para>                        transition: 0.5s;&#13;</para>
+  <para>                        text-align: center;&#13;</para>
+  <para>                }&#13;</para>
+  <para>&#13;</para>
+  <para>                #back:hover {&#13;</para>
+  <para>                        box-shadow: 0px 2px #FFF, 0px 0px 64px #FFF;&#13;</para>
+  <para>                        top: 4px;&#13;</para>
+  <para>                }&#13;</para>
+  <para>&#13;</para>
+  <para>                #snow {&#13;</para>
+  <para>                        background: none;&#13;</para>
+  <para>                        background-image: url('/res/images/error/misc/s1.png'), url('/res/images/error/misc/s2.png'), url('/res/images/error/misc/s3.png');&#13;</para>
+  <para>                        height: 100%;&#13;</para>
+  <para>                        left: 0;&#13;</para>
+  <para>                        position: fixed;&#13;</para>
+  <para>                        top: 0;&#13;</para>
+  <para>                        width: 100%;&#13;</para>
+  <para>                        z-index: 1;&#13;</para>
+  <para>                        -webkit-animation: snow 100s linear infinite;&#13;</para>
+  <para>                        animation: snow 100s linear infinite;&#13;</para>
+  <para>                        pointer-events: none;&#13;</para>
+  <para>                }&#13;</para>
+  <para>&#13;</para>
+  <para>                @keyframes snow {&#13;</para>
+  <para>                        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}&#13;</para>
+  <para>                        50% {background-position: 5000px 5000px, 1000px 2000px, -1000px 1500px;}&#13;</para>
+  <para>                        100% {background-position: 5000px 10000px, 2000px 4000px, -1000px 3000px;}&#13;</para>
+  <para>                }&#13;</para>
+  <para>&#13;</para>
+  <para>                @-webkit-keyframes snow {&#13;</para>
+  <para>                        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}&#13;</para>
+  <para>                        50% {background-position: 5000px 5000px, 1000px 2000px, -1000px 1500px;}&#13;</para>
+  <para>                        100% {background-position: 5000px 10000px, 2000px 4000px, -1000px 3000px;}&#13;</para>
+  <para>                }&#13;</para>
+  <para>        &lt;/style&gt;&#13;</para>
+  <para>&lt;/head&gt;&#13;</para>
+  <para>&lt;body&gt;&#13;</para>
+  <para>        &lt;div id="overlay"&gt;&lt;/div&gt;&lt;div id="overlay2"&gt;&lt;/div&gt;        &lt;div id="snow"&gt;&lt;/div&gt;&#13;</para>
+  <para>        &lt;center&gt;&#13;</para>
+  <para>                &lt;div style="height: 20vh;"&gt;&lt;/div&gt;&#13;</para>
+  <para>                &lt;img src="/res/images/error/404.png"/&gt;&#13;</para>
+  <para>                &lt;h1&gt;File not found&lt;/h1&gt;&#13;</para>
+  <para>                &lt;div style="height: 20vh;"&gt;&lt;/div&gt;&#13;</para>
+  <para>                &lt;div id="back"&gt;Return&lt;/div&gt;&#13;</para>
+  <para>        &lt;/center&gt;&#13;</para>
+  <para>&lt;/body&gt;&#13;</para>
+  <para>&lt;/html&gt;</para>
+</article>

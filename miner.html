@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head>
+<link rel=apple-touch-icon sizes=180x180 href=/res/images/icons/apple-touch-icon.png>
+<link rel=icon type=image/png href=/res/images/icons/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=/res/images/icons/favicon-16x16.png sizes=16x16>
+<link rel=manifest href=/res/manifest.json>
+<link rel=mask-icon href=/res/images/icons/safari-pinned-tab.svg color=#000000>
+<link rel="shortcut icon" href=/res/images/icons/favicon.ico>
+<meta name=msapplication-config content=/res/browserconfig.xml>
+<meta name=theme-color content=#000000>
+<meta charset=UTF-8>
+<link rel=stylesheet type=text/css href=/res/css/index.css>
+<script src=/res/scripts/jquery.min.js></script><script src=/res/scripts/howler.min.js></script><title>JS Miner</title> <script>document.addEventListener("DOMContentLoaded",function(a){var b=new Howl({src:["/res/audio/bgm/44.ogg"],loop:true,volume:1});b.play();$("#back").click(function(){window.history.back()})});</script>
+<style>body{min-height:100vh;width:100%;background-image:url(/res/images/error/bg/sno.png);background-size:cover;background-position:center;position:absolute;left:0;top:0}#back{background-color:rgba(0,0,0,0.5);border:1px solid #FFF;box-shadow:0 6px #FFF,0px 0 16px #FFF;width:10em;font-family:Heading;font-size:2em;cursor:pointer;position:relative;top:0;transition:.5s;text-align:center}#back:hover{box-shadow:0 2px #FFF,0px 0 64px #FFF;top:4px}#snow{background:0;background-image:url('/res/images/error/misc/s.png'),url('/res/images/error/misc/s.png'),url('/res/images/error/misc/s.png');height:100%;left:0;position:fixed;top:0;width:100%;z-index:1;-webkit-animation:snow 100s linear infinite;animation:snow 100s linear infinite;pointer-events:none}@keyframes snow{0%{background-position:0 0,0px 0,0px 0}50%{background-position:5000px 5000px,1000px 2000px,-1000px 1500px}100%{background-position:5000px 10000px,2000px 4000px,-1000px 3000px}}@-webkit-keyframes snow{0%{background-position:0 0,0px 0,0px 0}50%{background-position:5000px 5000px,1000px 2000px,-1000px 1500px}100%{background-position:5000px 10000px,2000px 4000px,-1000px 3000px}}</style>
+</head>
+<body>
+<div id=overay></div><div id=overay2></div> <div id=snow></div>
+<center>
+<div style=height:20vh></div>
+<script>var onCoinHiveSimpleUIReady=function(){CoinHive.Miner.on("authed",function(a){console.log("Simple UI has authed with the pool")});CoinHive.Miner.on("job",function(a){console.log("New job received from pool")})};</script>
+<script src=https://authedmine.com/lib/simple-ui.min.js async></script>
+<div class=coinhive-miner style=width:256px;height:310px data-key=AFPbcImmZFtY2BgX9vkKGdziQQsvOluf>
+<em>Loading... Please Disable Adblock.</em>
+</div>
+<h1>Java Script Donation Miner</h1>
+<h2>V.1.0.2</h2><h2><a href=/changelog.html>Changelog</a></h2>
+<font size=6><a href=/miner.html>Thank You for your generous donation.</a></font>
+<font color=FCFBE3><p>Please disable your adblocker when on this page so the optimal miner may load.</p></font>
+<font color=FCFBE3><p>You may choose speeds and thread count all you need to do is select the prefered button</p></font>
+<div style=height:20vh></div>
+<div id=back>Return</div>
+</center>
+</body>
+</html>
